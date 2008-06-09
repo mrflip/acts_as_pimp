@@ -1,0 +1,71 @@
+
+- name:		simpy.com
+  url_base:	http://www.simpy.com/simpy/LinkAdd.do
+  qs_url:	href
+  qs_title:	title
+
+- name:		Del.icio.us
+  url_base:	http://del.icio.us/post
+  qs_url:	url
+  qs_title:	title
+  new_frame:    true # "  target="_blank
+
+- name:		Furl	
+  url_base:	http://www.furl.net/storeIt.jsp
+  qs_url:	u
+  qs_title:     t
+
+- name:		Spurl	
+  url_base:	http://www.spurl.net/spurl.php
+  qs_url:	url
+  qs_title:	title
+
+- name:		Yahoo! myweb2
+  url_base:	http://myweb2.search.yahoo.com/myresults/bookmarklet
+  qs_url:	u
+  qs_title:	t
+
+- name:		dzone	
+  url_base:	http://www.dzone.com/links/add.html
+  qs_url:       url
+  qs_title:	title
+  qs_extra:     { description: nil }
+
+- name:		fark.com
+  url_base:	http://cgi.fark.com/cgi/fark/edit.pl
+  qs_url:	new_url
+  qs_title:	new_comment
+  qs_extra:     { new_link_other: nil, linktype: "Misc"}
+
+- name:		wists.com
+  url_base:	http://wists.com/r.php
+  qs_url:       r
+  qs_title:	title
+  qs_extra:     { c: nil }
+
+- name:		blinklist.com
+  url_base:	http://www.blinklist.com/index.php
+  qs_url:       Url
+  qs_title:	Title
+  qs_extra:     { Action: 'Blink/addblink.php' }
+
+- name:		blogmarks.net
+  url_base:	http://blogmarks.net/my/new.php
+  qs_url:       url
+  qs_title:     title
+  qs_extra:     { mini: 1, simple: 1 }
+
+- name:		Digg.com
+  url_base:	http://digg.com/submit
+  qs_url:       url
+  qs_extra:     { phase: 2 }
+
+- name:		Newsvine
+  url_base:	http://www.newsvine.com/_tools/seed
+  qs_url:	u
+  qs_title:	h
+  qs_extra:     { 'save': nil }
+
+- name:		reddit.com
+  url_base:	http://reddit.com/submit
+  qs_url:       url
